@@ -1,4 +1,5 @@
 // This MUST be exactly this structure
+export const dynamic = 'force-dynamic'
 export default function CustomersPage() {
   return (
     <main className="p-6">

@@ -1,4 +1,5 @@
 // app/(dashboard)/layout.tsx
+export const dynamic = 'force-dynamic'
 import { redirect } from 'next/navigation'
 import { createClient } from '@/app/lib/supabase/server'
 import { Sidebar } from '@/components/layout/Sidebar'
